@@ -1,6 +1,5 @@
 ﻿using Coolblue.API.Models;
 using Coolblue.API.Repository;
-using System.Threading.Tasks;
 
 namespace Coolblue.API.Services
 {

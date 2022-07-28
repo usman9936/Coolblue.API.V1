@@ -147,12 +147,11 @@ namespace Coolblue.Api.Tests
             //Arrange
             var expected = 2500;
             var product = products.FirstOrDefault(x => x.Id == 14);
-            // Act
 
+            // Act
             var actual = Convert.ToDouble(_productService.CalculcateInsurance(product));
 
             // Assert
-
             Assert.Equal(expected, actual);
         }
     }
